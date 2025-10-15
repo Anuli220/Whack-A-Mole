@@ -1,0 +1,205 @@
+/* 1. Set body margin to 0.
+
+
+2. Set font-family to Arial sans-serif.
+
+
+3. Use flex display.
+
+
+4. Set flex-direction to column.
+
+
+5. Center items horizontally.
+
+
+6. Center items vertically.
+
+
+7. Set body height to 100vh.
+
+
+8. Set background color to dark gray (#222).
+
+
+9. Set text color to white.
+
+
+10. Align text to center. */
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+/* 
+11. Set heading bottom margin to 10px. */
+
+h1{
+    margin-bottom: 10px;
+}
+
+
+/* GAMEBOARD: 12. Create a grid display.
+
+
+13. Set grid-template-columns to repeat(2, 150px).
+
+
+14. Set grid-template-rows to repeat(2, 150px).
+
+
+15. Set gap between grid items to 20px. */
+
+.gameboard{
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 20px;
+}
+
+
+
+
+
+/* .BTN: 16. Set button width to 150px.
+
+
+17. Set button height to 150px.
+
+
+18. Remove border.
+
+
+19. Set border-radius to 15px.
+
+
+20. Add cursor pointer.
+
+
+21. Set opacity to 0.8.
+
+
+22. Add transition effect for opacity 0.2s. */
+
+
+.btn{
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+
+/* 
+BTN ACTIVE 23. When button is active, set opacity to 1. */
+
+.btn:active{
+    opacity: 1;
+}
+
+
+
+
+/* ---
+.red
+24. Set red background to red button. */
+
+.red{
+    background: red;
+}
+
+/* .green
+25. Set green background to green button. */
+
+.green{
+    background: green;
+}
+
+/* .blue
+26. Set blue background to blue button. */
+
+.blue{
+    background: blue;
+}
+
+/* /yellow
+27. Set yellow background to yellow button and text color black. */
+
+.yellow{
+    background: yellow;
+    color: black;
+}
+
+
+
+
+/* FLASH: 28. For flash effect: set opacity 1 important.
+
+
+29. Add white box-shadow of 30px glow. */
+
+.flash{
+    opacity: 1;
+    box-shadow: 0 0 30px white;
+}
+
+
+
+
+/* #CONTROLS: 30. Add margin-top of 20px to controls section.
+ */
+
+#controls{
+    margin-top: 20px;
+}
+
+
+
+/* BUTTON: 31. Style control buttons:
+
+Set padding to 10px 20px.
+
+Set margin to 5px.
+
+Set font-size to 16px.
+
+Remove border.
+
+Add border-radius of 8px.
+
+Background crimson.
+
+Text color white.
+
+Cursor pointer. */
+
+button{
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: crimson;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* BUTTON HOVER 32. On hover, change button background to darkred. */
+
+button:hover{
+    background: darkred;
+}

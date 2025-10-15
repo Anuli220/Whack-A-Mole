@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="simon.css">
+</head>
+<body>
+    <!-- create a h1 "simon says, after that create a paragraph and give it an id of Status, and in the content write "press start to play"-->
+<!-- create a div with a class of gameboard, and inside that div, you have another div with a class of btn and red and also id of red, the content is empty -->
+<!-- 3 other divs with class "button green" "button yellow" and "button blue" -->
+<!-- separate div of id "controls" and inside that create 2 buttons content as "start" and "reset" and have 2 onclick functions separate "startGame()" and "resetGame()"-->
+
+<h1>Simon Says</h1>
+<p id="status">Press Start To Play!</p>
+
+<div class="gameboard">
+    <div class="btn red" id="red"></div>
+    <div class="btn green" id="green"></div>
+    <div class="btn yellow" id="yellow"></div>
+    <div class="btn blue" id="blue"></div>
+</div>
+<div id="controls">
+    <button onclick="startGame()">Start</button>
+    <button onclick="resetGame()">Reset</button>
+</div>
+    <script src="simon.js"></script>
+</body>
+</html>
